@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+font-family: 'Hurricane', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+
+
+
+/*    HEADER    */
+
+.cabecera{
+    top: 0;
+}
+.cabecera__navegacion{
+    background-color: #757132;
+    background-image: url(./imagenes/forja);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: double;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cabecera__logo{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.582);
+    border: solid black;
+    border-radius: 5%;
+    margin-top: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.cabecera__navegacion__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navegacion__lista__item{
+    list-style: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    margin: 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*    FOOTER    */
+.footer{
+    background-color: #C2BE8D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+}
+.footer__divisor{
+    border-style: solid;
+    border-width: 5px;
+    color: #757132;
+    margin-bottom: 35px;
+}
+.footer__cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer__caja__contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__caja__pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__titulos{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+.footer__lista{
+    list-style: none;
+    width: 50em;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__lista__item--mail{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.footer__formulario{
+    border: solid black 5px;
+    border-style: double;
+    background-color: #757132;
+    height: 25rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.formulario__nombre{
+    border: solid black 2px;
+    height: 2rem;
+    width: 35rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.formulario__telefono{
+    border: solid black 2px;
+    height: 2rem;
+    width: 35rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.formulario__mail{
+    border: solid black 2px;
+    height: 2rem;
+    width: 35rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.formulario__material{
+    border: solid black 2px;
+    height: 2rem;
+    width: 35rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.formulario__diseno{
+    border: solid black 2px;
+    height: 2rem;
+    width: 35rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.formulario__remache{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.formulario__boton{
+    height: 3rem;
+    width: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F5F1B3;
+}
+
+
+/* ------------------------------------INDEX------------------------------------*/
+
+/*    MAIN    */
+
+.cuerpo{
+    background-color: #F5F1B3;
+}
+.main__titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5rem auto;
+}
+.mainIntro{
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainIntro__imagen{
+    width: 99vw;
+    border: 1px outset #978c8c;
+    -webkit-box-shadow: -1px 4px 27px 1px #000000; 
+    box-shadow: -1px 4px 27px 1px #000000;
+}
+.main__titulo__parrafo {
+    margin-top: 1rem;
+    width: 100rem;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #C2BE8D;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+.textoEnriquecido{
+    height: 50px;
+    margin: 4rem auto;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    -webkit-box-shadow: 8px 0px 37px 5px #000000; 
+    box-shadow: 8px 0px 37px 5px #000000;
+}
+
+
+/*    QUIEN SOY    */
+.quienSoy__subtitulo{
+    width: fit-content;
+    margin: 15rem auto 5rem auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    width: fit-content;
+    text-decoration: underline;
+    text-align: center;
+}
+.quienSoy{
+    height: 60rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quienSoy__subtitulo__parrafo{
+    height: 45rem;
+    width: 30rem;
+    font-family:'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    word-spacing: 10px;
+
+}
+.fotoFranco{
+    height: 800px;
+    width: 600px;
+    border-style: solid;
+    border-width: px;
+    color: black;
+}
+
+
+/* ------------------------------------CUCHILLOS AL CARBONO------------------------------------*/
+.carbono__main__tituloParrafo{
+    margin-left: 3vh;
+    width: 190vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main__parrafo1{
+    width: 150vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    word-spacing: 4px;
+    text-align: center;
+}
+.main__parrafo2{
+    width: 150vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    word-spacing: 4px;
+    text-align: center;
+}
+.tiposDeCarbono{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.carbono__percloruro{
+    width: fit-content;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carbono__antioxido{
+    height: 80rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carbono__subtitulos{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    padding: 5rem;
+}
+.fotoDescripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galeria__carbono{
+    border: #C2BE8D solid 7px;
+    height: 450px;
+    width: 700px;
+}
+.descripcion{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+/* ------------------------------------CUCHILLOS DAMASCO------------------------------------*/
+
+.main__damasco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fotos__damasco1{
+    width: fit-content;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fotos__damasco2{
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.galeria__damasco{
+    height: 650px;
+    width: 900px;
+    border: #C2BE8D solid 7px;
+}
+.galeria__damasco2{
+    height: 650px;
+    width: 900px;
+    border: #C2BE8D solid 7px;
+    margin-bottom: -125px;
+}
+.main__parrafo3{
+    border: solid black 3px;
+    width: 80vh;
+    height: fit-content;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    word-spacing: 4px;
+    text-align: center;
+    padding: 40px;
+   
+}
+
+
+/* ------------------------------------CUCHILLOS INOXIDABLE------------------------------------*/
+
+.main__inoxidable{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria__inoxidable1{
+    height: 550px;
+    width: 700px;
+    border: #C2BE8D solid 7px;
+}
+.main__parrafo4{
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    border: solid 5px #757132;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+
+/* ------------------------------------DISEÑOS DE HOJA------------------------------------*/
+
+.diseño__hojas{
+    height: 150vh;
+    width: 190vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2vh;
+}
+.chef__santoku__hacha{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.puntaCaida__asador{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.galeria__hojas{
+    height: 350px;
+    width: 500px;
+    border: #C2BE8D solid 7px;
+}
+.hojas{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.descripcion__hojas{
+    width: 300px;
+    height: fit-content;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+.tituloYTexto{
+    border: double #757132;
+    height: fit-content;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
