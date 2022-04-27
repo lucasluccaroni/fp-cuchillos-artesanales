@@ -50,6 +50,10 @@ font-family: 'Josefin Sans', sans-serif;
     font-family: 'Tangerine', cursive;
     font-size: 50px;
     margin: 25px;
+    transition: background-color 2s;
+}
+.navegacion__lista__item:hover {
+    background-color: rgba(0, 0, 0, 0.568);
 }
 a{
     color: white;
@@ -178,7 +182,8 @@ a{
 /*    MAIN    */
 
 .cuerpo{
-    background-color: #F5F1B3;
+    background: rgb(117,113,50);
+    background: linear-gradient(0deg, rgba(117,113,50,1) 0%, rgba(194,190,141,1) 51%, rgba(245,241,179,1) 100%);
 }
 .main__titulo{
     font-family: 'Josefin Sans', sans-serif;
@@ -221,6 +226,21 @@ a{
     text-align: center;
     -webkit-box-shadow: 8px 0px 37px 5px #000000; 
     box-shadow: 8px 0px 37px 5px #000000;
+    animation-name: flotando;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes flotando {
+    0%{
+        transform: translate(0, 0px) ;
+    }
+    50%{
+        transform: translate(0, 15px);
+    }
+    100%{
+        transform: translate(0. -0px);
+    }
 }
 
 
