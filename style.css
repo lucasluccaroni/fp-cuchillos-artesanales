@@ -217,6 +217,7 @@ a{
     font-style: italic;
 }
 .textoEnriquecido{
+    width: auto;
     height: 50px;
     margin: 4rem auto;
     padding: 1rem;
